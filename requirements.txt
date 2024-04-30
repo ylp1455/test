@@ -1,0 +1,5 @@
+Flask==3.0.3
+Flask_Bcrypt==1.0.1
+Flask_Cors==4.0.0
+PyMySQL==1.1.0
+pytest==8.2.0

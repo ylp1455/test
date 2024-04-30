@@ -1,0 +1,46 @@
+{
+  "config": {
+    "common": {
+      "HOST": "0.0.0.0",
+      "PORT": 8008,
+      "VERSION": "v1",
+      "URL_PREFIX": "api",
+      "DEFAULT_DEBUG": true,
+      "THREADS_PER_PAGE": 2,
+      "CSRF_ENABLED": true,
+      "CSRF_SESSION_KEY": ""
+    },
+    "env": {
+      "production": {
+        "ENV": "production",
+        "DEBUG": false,
+        "DEVELOPMENT": false,
+        "DATABASE_CONNECTION_OPTIONS": {
+          "DATABASE": "MySQL",
+          "DB_HOST": "193.203.166.104",
+          "DB_PORT": "3306",
+          "DB_USER": "u219993273_mom2be",
+          "DB_PASSWD": "Nisal1998",
+          "DB_NAME": "u219993273_mom2be",
+          "CONNECT_TIMEOUT": 5,
+          "SECRET_KEY": "abcdefghijklmnopqrstuvwxyz"
+        }
+      },
+      "development": {
+        "ENV": "development",
+        "DEBUG": true,
+        "DEVELOPMENT": true,
+        "DATABASE_CONNECTION_OPTIONS": {
+          "DATABASE": "MySQL",
+          "DB_HOST": "193.203.166.104",
+          "DB_PORT": "3306",
+          "DB_USER": "u219993273_mom2be",
+          "DB_PASSWD": "Nisal1998",
+          "DB_NAME": "u219993273_mom2be",
+          "CONNECT_TIMEOUT": 5,
+          "SECRET_KEY": "abcdefghijklmnopqrstuvwxyz"
+        }
+      }
+    }
+  }
+}
